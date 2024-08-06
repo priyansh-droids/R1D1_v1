@@ -1,6 +1,7 @@
 # R1D1_v1
 usage:
 First install ros2 control for your ros version from [here](https://control.ros.org/rolling/doc/getting_started/getting_started.html) <br />
+Remember to use the same workspace in which this package is placed for building ros2 control. <br />
 Also install twist mux for your ROS distro : `sudo apt install ros-$ROS_DISTRO-twist-mux` <br />
 colcon build everything, <br />
 follow the steps: <br />
