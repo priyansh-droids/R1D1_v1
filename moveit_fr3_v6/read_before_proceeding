@@ -1,0 +1,17 @@
+download fairno ros2 package from https://github.com/FAIR-INNOVATION/frcobot_ros2.git
+download moveit2 from source from https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html
+colcon build 
+source 
+then check ros2 launch fairino3_v6_moveit2_config demo.launch.py 
+	->if this error comes:
+		Caught exception in launch (see debug for traceback): 'capabilities'
+		then go to https://github.com/moveit/moveit2/issues/2738 and change addordingly mink007 solution to this
+	
+	-> do not colcon build again (you can but it will take atleast 10-20min for that)
+	-> then run launch files
+	-> it should run
+	
+	-> no need to worry about "Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead"
+if above command runs successfully then add a colcon ignore file in moveit2 folder in src in order to ignore for further colcon build
+
+
