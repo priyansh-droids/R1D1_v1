@@ -3,7 +3,7 @@
 
 ### Installation and Setup Instructions
 
-**1. Download the `frcobot_ros2` Package:**
+**1. Download the `frcobot_ros2` Package: (skip this step)**
    - Clone the package from the GitHub repository:
      ```bash
      git clone https://github.com/FAIR-INNOVATION/frcobot_ros2.git
