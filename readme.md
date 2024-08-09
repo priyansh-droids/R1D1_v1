@@ -1,4 +1,3 @@
-Here’s a more polished and structured version of the instructions:
 
 ---
 
@@ -61,5 +60,3 @@ Here’s a more polished and structured version of the instructions:
      ```
 
 ---
-
-This set of instructions should help you set up and run the ROS2 packages efficiently, while also guiding you through handling any potential issues without unnecessary delays.
