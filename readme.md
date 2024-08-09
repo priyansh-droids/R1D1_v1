@@ -54,9 +54,9 @@
      ```
 
 **9. Add a `colcon.ignore` File:**
-   - If the above command runs successfully, you can add a `colcon.ignore` file in the MoveIt2 folder to avoid rebuilding it in the future. Navigate to the `src` directory and create the file:
+   - If the above command runs successfully, you can add a `colcon.ignore` file in the MoveIt2 folder to avoid rebuilding it in the future. Navigate to the `src/moveit*` directory and create the file:
      ```bash
-     touch src/moveit2/colcon.ignore
+     touch src/moveit****path****/colcon.ignore
      ```
 
 ---
